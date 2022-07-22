@@ -1,0 +1,24 @@
+INSERT INTO customers VALUES("Cus001", STR_TO_DATE("August 10 2002", "%M %d %Y"), "ABCD DEGF IJKL", "M", "A-121 Vijay nagar", "business", "1234567890", "101", STR_TO_DATE("August 10 2020", "%M %d %Y"), NULL, "AADA+JAHKS");
+
+[
+    {
+        "aadhar": "ABCD DEGF IJKL",
+        "address": "A-121 Vijay nagar",
+        "contact": "1234567890",
+        "date_of_birth": "Sat, 10 Aug 2002 00:00:00 GMT",
+        "entry_date": "Mon, 10 Aug 2020 00:00:00 GMT",
+        "exit_date": null,
+        "keyused": "AADA+JAHKS",
+        "name": "Cus001",
+        "reason": "business",
+        "room_no": "101",
+        "sex": "M"
+    }
+]
+
+3:47 baje i know how to use mysql workbench
+
+
+INSERT INTO rooms_info VALUES("101", "1011", "1", "564", "879887", "87", "1012");
+
+INSERT INTO rooms_info VALUES("102", "1021", "1", "5876", "1986732", "86", "1022", "AADA+JAHKS");
